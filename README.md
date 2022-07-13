@@ -1,2 +1,2 @@
-# HTML
+# HTML CSS JS
 Patika Ödevleri
