@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaFe Müzik Dükkanı</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+      background-image: url('ArkaPlan.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    img
+     {
+         width: 100px;
+         height: 100px;
+    }
+    .main-nav {
+            display: inline-block;
+            text-align: right;
+            width: calc(42% - 101px);
+        }
+
+
+        .main-nav__items {
+            list-style: none;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .main-nav__item {
+            display: inline-block;
+            padding: 5px;
+            margin: 0px 10px;
+        }
+
+        .main-nav__link {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .main-nav__link--login {
+            border: 2px solid white;
+            padding: 8px;
+            border-radius: 10px;
+            background-color: #2E4C6D;
+        }
+
+        .main-nav__link--login:hover,
+        .main-nav__link--login:hover::before {
+            color: black;
+            background-color: #2E4C6D;
+        }
+
+        .input-1 {
+            padding-left: 29%;
+            display: inline-block;
+            padding-right: 11%;
+            vertical-align: text-bottom;
+        }
+
+        input {
+            border: 1px solid white;
+            border-radius: 6px;
+            
+            
+            margin-top: 10px;
+        }
+
+        input[type="search" i] {
+            padding: 2px 3px;
+            width: 178%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+
+        .card1 {
+            max-width: 300px;
+            display: inline-block;
+            text-align: center;
+            border: 4px solid black;
+            margin-left: 30%;
+            margin-bottom: 5%;
+        }
+
+        .card2 {
+            border: 4px solid black;
+            max-width: 300px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .card3 {
+            border: 4px solid black;
+            max-width: 300px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        
+    </style>
+
+<body>
+    <header class="main-header">
+
+        <img src="MusicStudioLogo.png" >
+        <a href="index.html" class="main-header_item">GaFe Müzik Dükkanı</a>
+        
+        <nav class="main-nav">
+            <ul class="main-nav__items" >
+                <li class="main-nav__item">
+                    <a href="index.html" class="main-nav__link" >Anasayfa</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="urunlerimiz.html" class="main-nav__link">Ürünlerimiz</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="hakkimizda.html" class="main-nav__link">Hakkımızda</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="iletişim.html" class="main-nav__link">İletişim</a>
+                </li>
+            
+            </ul>
+            
+        </nav>
+    </header>
+    <main>
+        <h1>Tüm Ürünler</h1>
+        <div class="products">
+
+            <div class="card1">
+                <img src="./img/gitar.jpg" alt="" width="200px" height="200px">
+                <h2>Gitar</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+
+            </div>
+            <div class="card2">
+                <img src="./img/keman.jpg" alt="" width="200px" height="200px">
+                <h2>Keman</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+              
+
+            </div>
+            <div class="card3">
+                <img src="./img/saz.jpg" alt="" width="200px" height="200px">
+                <h2>Saz</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+              
+
+            </div>
+        </div>
+
+        <div class="products">
+
+            <div class="card1">
+                <img src="./img/cello.jpg" alt="" width="200px" height="200px">
+                <h2>Çello</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+            
+
+            </div>
+            <div class="card2">
+                <img src="./img/ud.jpg" alt="" width="200px" height="200px">
+                <h2>Ud</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+             
+
+            </div>
+            <div class="card3">
+                <img src="./img/arp.jpg" alt="" width="200px" height="200px">
+                <h2>Arp</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+              
+            </div>
+        </div>
+        <div class="products">
+
+            <div class="card1">
+                <img src="./img/batari.jpg" alt="" width="200px" height="200px">
+                <h2>Bateri</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+            
+
+            </div>
+            <div class="card2">
+                <img src="./img/darbuka.jpg" alt="" width="200px" height="200px">
+                <h2>Darbuka</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+             
+
+            </div>
+            <div class="card3">
+                <img src="./img/davul.jpg" alt="" width="200px" height="200px">
+                <h2>Davul</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+              
+            </div>
+        </div>
+        <div class="products">
+
+            <div class="card1">
+                <img src="./img/trompet.png" alt="" width="200px" height="200px">
+                <h2>Trompet</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+            
+
+            </div>
+            <div class="card2">
+                <img src="./img/klarnet.jpg" alt="" width="200px" height="200px">
+                <h2>Klarnet</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+             
+
+            </div>
+            <div class="card3">
+                <img src="./img/yanflut.jpg" alt="" width="200px" height="200px">
+                <h2>Yan Flüt</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <hr>
+                <p>Fiyat: 200</p>
+              
+            </div>
+            <div class="products">
+
+                <div class="card1">
+                    <img src="./img/akordiyon.jpg" alt="" width="200px" height="200px">
+                    <h2>Akordiyon</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <hr>
+                    <p>Fiyat: 200</p>
+                
+    
+                </div>
+                <div class="card2">
+                    <img src="./img/piyano.jpg" alt="" width="200px" height="200px">
+                    <h2>Piyano</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <hr>
+                    <p>Fiyat: 200</p>
+                 
+    
+                </div>
+                <div class="card3">
+                    <img src="./img/org.jpg" alt="" width="200px" height="200px">
+                    <h2>Org</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <hr>
+                    <p>Fiyat: 200</p>
+                  
+                </div>
+            </div>
+        </div>
+    </main>
+       
+   
+</body>
+</html>
